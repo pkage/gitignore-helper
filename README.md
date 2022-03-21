@@ -8,7 +8,7 @@ API](https://docs.github.com/en/rest/reference/gitignore).
 ## installation
 
 ```sh
-$ git clone git@github.com:pkage/focusd && cd focusd
+$ git clone git@github.com:pkage/gitignore && cd gitignore
 $ cargo build --release
 $ cp target/release/gitignore ~/.local/bin
 ```
@@ -29,7 +29,7 @@ Print a language's .gitignore to stdout:
 $ gitignore Python
 ```
 
-Print a language's .gitignore to the current directory
+Print a language's .gitignore to the current directory:
 
 ```sh
 $ gitignore Python >> .gitignore

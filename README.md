@@ -13,6 +13,8 @@ $ cargo build --release
 $ cp target/release/gitignore ~/.local/bin
 ```
 
+*n.b. this assumes that `~/.local/bin` is on your `$PATH`*
+
 ## usage
 
 List available languages:

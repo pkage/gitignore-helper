@@ -2,7 +2,8 @@
 
 Fetch the .gitignore templates from Github automatically, for easy inclusion in your projects.
 Mostly I just wrote this because I was tired of copying from [github's
-repo](https://github.com/github/gitignore).
+repo](https://github.com/github/gitignore). This uses the [gitignore
+API](https://docs.github.com/en/rest/reference/gitignore).
 
 ## installation
 
